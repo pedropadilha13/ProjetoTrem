@@ -12,9 +12,17 @@ namespace Trem
 {
     public partial class Form1 : Form
     {
+
+        private Trem trem;
+
         public Form1()
         {
             InitializeComponent();
+            trem = new Trem();
+
         }
+
+        
+
     }
 }
